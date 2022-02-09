@@ -1,0 +1,40 @@
+TPS 1
+Alyssa Yee
+Daisy Hernandez
+Sources: https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal
+https://opensource.com/article/21/8/linux-terminal
+http://www.pixelbeat.org/cmdline.html
+
+TPS 2
+Ctrl+Alt+T.
+CTRL + Shift + N for new terminals
+can be used to compare different programs at the same time, for example different instances of a same program
+command is ls
+cd ~/Desktop
+mkdir CSE31
+
+TPS 3
+https://www.geeksforgeeks.org/gcc-command-in-linux-with-examples/
+https://www.rapidtables.com/code/linux/gcc/gcc-c.html
+gcc main.c -o main
+there are no errors and you have an executable.
+-c flag compiles source files without linking.
+-g flag generates debug information.
+gcc main.c -o cselab1
+./executable-name 
+
+TPS 4
+Printf("insert value")
+scanf(value) do this until value is 0
+add values to array.
+count++ for amount of non zero values.
+for (int i = 0; i < count; i ++) {
+    split up each value at index i into digits
+    Modulo by 10 to get digit, then divide number by 10 to get next digit. 
+    each digit will be added to a sum until value is zero.
+
+    check if sum of digits is even or odd then put value in appropriate array.
+}
+for each array of odd or even numbers,
+int sum = sum + indexed value of array.
+then print.
