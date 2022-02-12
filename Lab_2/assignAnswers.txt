@@ -1,0 +1,8 @@
+Assignment 1
+The issue was on line 18. Input was not a reference.
+Making it so fixed the issue.
+
+Assignment 2
+Yes the output is expected (The text is right but I see an "L" in the top right of the last character)
+No, the output includes words from the last input.
+The result is not expected. This probably happens because for some reason the program thinks s2len is very large and thus messes with how s1 is changed.

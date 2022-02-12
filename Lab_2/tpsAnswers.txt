@@ -1,0 +1,23 @@
+TPS 1
+https://u.osu.edu/cstutorials/2018/09/28/how-to-debug-c-program-using-gdb-in-6-simple-steps/
+https://web.eecs.umich.edu/~sugih/pointers/summary.html
+https://www.classes.cs.uchicago.edu/archive/2017/winter/51081-1/LabFAQ/lab2/gdb.html
+https://www.geeksforgeeks.org/gdb-step-by-step-introduction/
+
+TPS 2
+gcc -g punishment.c -o punishment
+gdb punishment
+run
+breakpoints are places where the debugger will stop running the program.
+You can set it up with break (line) ex. break 10.
+use n to go line by line
+to see values of variables, use command p (variable name)
+to finish the program you can use command c
+to quit, you can press q.
+
+TPS 3
+there are 4 variables declared, 2 of them are pointers.
+x= 0, y is 16 and arr[0] is 8.
+to fix this, you can initialize them all as 0, or something else.
+Yes, the results are the same. It makes sense since arr is a pointer, and pointers point to addresses. so the address of arr should be the same as printing the pointer.
+

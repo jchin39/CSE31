@@ -83,7 +83,6 @@ int main() {
 } 
 printf("sumOdds = %2f\n", sumOdds / oCount);
 printf("sumEvens = %2f\n", sumEvens / eCount);
-    
-    
+
     return 0;
 }
