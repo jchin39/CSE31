@@ -1,0 +1,14 @@
+Tps 1
+Static storage: Global variable storage
+The Stack: Local variable storage
+The Heap: dynamic malloc storage
+
+3 variables are declared
+2 are pointers, they point to integers.
+These are stored on the Stack
+ptr goes to the heap.
+
+TPS 2
+NodeStruct creates a dynamically allocated structure in memory which is constructed of two values.
+Structures are stored on the heap, as the space allocated for them is done so by malloc.
+
