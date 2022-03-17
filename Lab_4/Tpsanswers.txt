@@ -1,0 +1,7 @@
+TPS 1
+A hexadecimal integer
+2
+It prints A B C D in hex
+2
+2
+yes
